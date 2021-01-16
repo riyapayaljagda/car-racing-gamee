@@ -36,8 +36,9 @@ class Form {
     });
   
     this.restart.mousePressed(()=>{
-      game.update(0)
       player.updateCount(0)
+      game.update(0)
+     window.location.reload()
     })
   }
 }
